@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>TheCocktailDB</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <head> <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+          <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Rye&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <link href="https://fonts.googleapis.com/css?family=Rye&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Quattrocento+Sans&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+          
+</head>
+
+<body>
+	
+	
+		<div class="bimage">
+				<nav class= "navbar navbar-expand-md bg-dark navbar-dark fixed-top ">
+            	<div class="header">
+                        <div class= "inner">
+                            <div class="logo navbar-brand text-warning font-weight-bold" href="index.html">
+                                    <i class="fa fa-glass" aria-hidden="true"></i>  &nbsp  The Cocktail Bar
+                            </div>
+                        
+                        </div>
+                    </div>
+                    
+			</nav>
+				<div class="content">
+					<h2>COCKTAILS</h2>
+                    <p>from all around the world.</p>
+                    <div class="header-link">
+                        <input type="text" id="data"  placeholder="Search for a cocktail..">
+                        <a href="#search">
+                            <button  id="b" class="button" onclick="search()"><i class="fa fa-search"></i></button>
+                        </a>
+                    </div>	
+               
+                
+			</div>
+		
+	</div>
+
+	<div class="container">
+        <h1> Filter drinks by the following categories:</h1> <br>
+		<hr> <br>
+		<div class="row rowsetting">
+		<div class="col-lg-4 col-md-6 col-sm-7 col-10 d-block m-auto items">
+			<img src="mocktail.jpg" class="thumbnail"> <br>
+			<div class="caption">
+				<a href="#mock-tail">
+					<button id="b1" class="button" onclick="mocktail()">Non-Alcoholic</button>
+				</a>
+				<p> Non-alcoholic drink recipes that are the perfect way for the whole family to ring in the new year!</p>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-md-6 col-sm-7 col-10 d-block m-auto items">
+			<img src="cocktail.jpg" class="thumbnail"> <br>
+			<div class="caption">
+				<a href="#cock-tail">
+					<button id="b1" class="button" onclick="cocktail()">Alcoholic</button>
+				</a>
+				<p>Add a sparkle to your party with a selection of refreshing and sophisticated cocktails.</p>
+			</div>
+		</div>
+
+		<div class=" col-lg-4 col-md-6 col-sm-7 col-10 d-block m-auto items">
+			<img src="ing.jpg" class="thumbnail"> <br>
+			<div class="caption">
+				<a href="#glasses">
+					<button id="b1" class="button" onclick="glass()">Glass Type</button>
+				</a>
+				<p> A fantastic range of Cocktail Glasses, shaken or stirred, add a variety of cocktail glasses to the home bar.</p>
+			</div>
+		</div>
+	</div>
+	</div> <br>
+    <hr> <br>
+
+	<div id="search">
+		
+	</div>
+
+	<div id="mock-tail">
+		
+	</div>
+
+	<div id="cock-tail">
+		
+	</div>
+
+	<div id="glasses">
+		
+	</div>
+
+	<footer>
+		<div class="container">
+			<p align="center">Contact Us- 9501812820 | Email Us- parneet.saini3@gmail.com</p>
+		</div>	
+	</footer>
+	<script src="script.js"></script>
+
+</body>
+</html>
